@@ -485,6 +485,9 @@ section {
                     width: 100%;
                     border-top: 1px solid #545961;
                     @include flexbox(column, center, center);
+                    @include tablet {
+                        border-top: none;
+                    }
                     li {
                         width: 100%;
                         border-bottom: 1px solid #545961;
