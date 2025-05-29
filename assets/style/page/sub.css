@@ -1407,6 +1407,6 @@
 }
 @media (max-width: 768px) {
   .sub-sec.contact + .top-btn, .sub-sec.apply + .top-btn {
-    bottom: 8.9rem;
+    bottom: 10.9rem;
   }
 }
