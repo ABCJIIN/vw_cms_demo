@@ -198,7 +198,7 @@ button:not(.select-item, .menu-btn, .close-btn).h62 {
   }
 }
 @media (hover: hover) {
-  button:not(.select-item, .menu-btn, .close-btn) {
+  button:not(.select-item, .menu-btn, .close-btn):hover {
     color: #fff;
     background: #333;
   }
@@ -213,7 +213,7 @@ button.type01 {
   background: #000;
 }
 @media (hover: hover) {
-  button.type01 {
+  button.type01:hover {
     color: #fff;
     background: #333;
   }
@@ -295,7 +295,7 @@ input[type=file] + label {
   transition: all 0.25s;
 }
 @media (hover: hover) {
-  input[type=file] + label {
+  input[type=file] + label:hover {
     color: #fff;
     background: #333;
   }
@@ -411,7 +411,7 @@ textarea::placeholder {
   }
 }
 @media (hover: hover) {
-  .select-box .option-list > li {
+  .select-box .option-list > li:hover {
     background: #EDEDED;
     transition: all 0.25s;
   }

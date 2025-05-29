@@ -177,8 +177,10 @@ button {
             }
         }
         @media (hover: hover) {
-            color: #fff;
-            background: #333;
+            &:hover {
+                color: #fff;
+                background: #333;
+            }
         }
         &:disabled {
             font-weight: 400;
@@ -190,8 +192,10 @@ button {
         color: #fff;
         background: #000;
         @media (hover: hover) {
-            color: #fff;
-            background: #333;
+            &:hover {
+                color: #fff;
+                background: #333;
+            }
         }
         &:disabled {
             font-weight: 400;
@@ -275,8 +279,10 @@ input {
             align-items: center;
             transition: all .25s;
             @media (hover: hover) {
-                color: #fff;
-                background: #333;
+                &:hover {
+                    color: #fff;
+                    background: #333;
+                }
             }
             @media (max-width: 768px) {
                 font-size: 1.4rem;
@@ -378,8 +384,10 @@ textarea {
                 font-size: 1.4rem;
             }
             @media (hover: hover) {
-                background: #EDEDED;
-                transition: all .25s;
+                &:hover {
+                    background: #EDEDED;
+                    transition: all .25s;
+                }
                 a {
                     font-weight: 700;
                     transition: all .25s;
