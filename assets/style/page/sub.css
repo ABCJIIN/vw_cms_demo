@@ -932,9 +932,6 @@
     min-width: 900px;
   }
 }
-.sub-sec.price .tb-wrap table thead {
-  border-bottom: 1px solid #000;
-}
 .sub-sec.price .tb-wrap table thead tr th {
   padding: 1.1rem 1.6rem;
   font-size: 3rem;
@@ -949,6 +946,9 @@
 .sub-sec.price .tb-wrap table thead tr th:first-of-type {
   position: sticky;
   left: 0;
+}
+.sub-sec.price .tb-wrap table tbody {
+  border-top: 1px solid #000;
 }
 .sub-sec.price .tb-wrap table tbody tr:not(:last-child) {
   border-bottom: 1px solid #C2C4C8;

@@ -848,7 +848,7 @@
                     min-width: 900px;
                 }
                 thead {
-                    border-bottom: 1px solid $black;
+                    // border-bottom: 1px solid $black;
                     tr {
                         th {
                             padding: 1.1rem 1.6rem;
@@ -866,7 +866,7 @@
                     }
                 }
                 tbody {
-                    // border-top: 1px solid $black;
+                    border-top: 1px solid $black;
                     tr {
                         &:not(:last-child) {
                             border-bottom: 1px solid #C2C4C8;
