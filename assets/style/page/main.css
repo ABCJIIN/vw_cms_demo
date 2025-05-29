@@ -392,8 +392,14 @@
   .main-sec.cooperate .inner:nth-of-type(2) .detail ul {
     padding-right: 2rem;
     overflow-x: auto;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+    -ms-overflow-style: none; /* IE, Edge */
+    scrollbar-width: none; /* Firefox */
+    cursor: grab;
+    user-select: none; /* 선택 방지 */
+    -webkit-overflow-scrolling: touch; /* iOS 자연 스크롤 */
+  }
+  .main-sec.cooperate .inner:nth-of-type(2) .detail ul::-webkit-scrollbar {
+    display: none !important; /* Chrome, Safari, Opera */
   }
 }
 @media (max-width: 768px) {
@@ -494,8 +500,14 @@
   .main-sec.sec05 .inner .list-wrap ul {
     padding-right: 2rem;
     overflow-x: auto;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+    -ms-overflow-style: none; /* IE, Edge */
+    scrollbar-width: none; /* Firefox */
+    cursor: grab;
+    user-select: none; /* 선택 방지 */
+    -webkit-overflow-scrolling: touch; /* iOS 자연 스크롤 */
+  }
+  .main-sec.sec05 .inner .list-wrap ul::-webkit-scrollbar {
+    display: none !important; /* Chrome, Safari, Opera */
   }
 }
 @media (max-width: 768px) {

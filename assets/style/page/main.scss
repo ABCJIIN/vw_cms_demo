@@ -300,8 +300,14 @@
                         @include notebook {
                             padding-right: 2rem;
                             overflow-x: auto;
-                            -ms-overflow-style: none;
-                            scrollbar-width: none;
+                            -ms-overflow-style: none; /* IE, Edge */
+                            scrollbar-width: none; /* Firefox */
+                            &::-webkit-scrollbar {
+                                display: none !important; /* Chrome, Safari, Opera */
+                            }
+                            cursor: grab;
+                            user-select: none; /* 선택 방지 */
+                            -webkit-overflow-scrolling: touch; /* iOS 자연 스크롤 */
                         }
                         @include tablet {
                             gap: .8rem;
@@ -381,8 +387,14 @@
                     @media (max-width: 1350px) {
                         padding-right: 2rem;
                         overflow-x: auto;
-                        -ms-overflow-style: none;
-                        scrollbar-width: none;
+                        -ms-overflow-style: none; /* IE, Edge */
+                        scrollbar-width: none; /* Firefox */
+                        &::-webkit-scrollbar {
+                            display: none !important; /* Chrome, Safari, Opera */
+                        }
+                        cursor: grab;
+                        user-select: none; /* 선택 방지 */
+                        -webkit-overflow-scrolling: touch; /* iOS 자연 스크롤 */
                     }
                     @include tablet {
                         gap: .8rem;
