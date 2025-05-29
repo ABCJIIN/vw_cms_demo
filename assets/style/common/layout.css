@@ -536,6 +536,11 @@ section.qna .inner .con-wrap ul {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 768px) {
+  section.qna .inner .con-wrap ul {
+    border-top: none;
+  }
+}
 section.qna .inner .con-wrap ul li {
   width: 100%;
   border-bottom: 1px solid #545961;
