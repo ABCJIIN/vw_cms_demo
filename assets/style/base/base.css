@@ -197,9 +197,11 @@ button:not(.select-item, .menu-btn, .close-btn).h62 {
     font-size: 1.4rem;
   }
 }
-button:not(.select-item, .menu-btn, .close-btn):hover {
-  color: #fff;
-  background: #333;
+@media (hover: hover) {
+  button:not(.select-item, .menu-btn, .close-btn) {
+    color: #fff;
+    background: #333;
+  }
 }
 button:not(.select-item, .menu-btn, .close-btn):disabled {
   font-weight: 400;
@@ -210,9 +212,11 @@ button.type01 {
   color: #fff;
   background: #000;
 }
-button.type01:hover {
-  color: #fff;
-  background: #333;
+@media (hover: hover) {
+  button.type01 {
+    color: #fff;
+    background: #333;
+  }
 }
 button.type01:disabled {
   font-weight: 400;
@@ -290,9 +294,11 @@ input[type=file] + label {
   align-items: center;
   transition: all 0.25s;
 }
-input[type=file] + label:hover {
-  color: #fff;
-  background: #333;
+@media (hover: hover) {
+  input[type=file] + label {
+    color: #fff;
+    background: #333;
+  }
 }
 @media (max-width: 768px) {
   input[type=file] + label {
@@ -404,13 +410,15 @@ textarea::placeholder {
     font-size: 1.4rem;
   }
 }
-.select-box .option-list > li:hover {
-  background: #EDEDED;
-  transition: all 0.25s;
-}
-.select-box .option-list > li:hover a {
-  font-weight: 700;
-  transition: all 0.25s;
+@media (hover: hover) {
+  .select-box .option-list > li {
+    background: #EDEDED;
+    transition: all 0.25s;
+  }
+  .select-box .option-list > li a {
+    font-weight: 700;
+    transition: all 0.25s;
+  }
 }
 .select-box .option-list > li.on {
   background: #EDEDED;

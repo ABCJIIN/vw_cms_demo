@@ -176,7 +176,7 @@ button {
                 font-size: 1.4rem;
             }
         }
-        &:hover {
+        @media (hover: hover) {
             color: #fff;
             background: #333;
         }
@@ -189,7 +189,7 @@ button {
     &.type01 {
         color: #fff;
         background: #000;
-        &:hover {
+        @media (hover: hover) {
             color: #fff;
             background: #333;
         }
@@ -274,7 +274,7 @@ input {
             justify-content: center;
             align-items: center;
             transition: all .25s;
-            &:hover{
+            @media (hover: hover) {
                 color: #fff;
                 background: #333;
             }
@@ -377,7 +377,7 @@ textarea {
                 padding: 0 1.4rem;
                 font-size: 1.4rem;
             }
-            &:hover {
+            @media (hover: hover) {
                 background: #EDEDED;
                 transition: all .25s;
                 a {
