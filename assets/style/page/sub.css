@@ -124,8 +124,14 @@
   .sub-sec.service .manage-card-wrap > ul {
     padding-right: 2rem;
     overflow-x: auto;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+    -ms-overflow-style: none; /* IE, Edge */
+    scrollbar-width: none; /* Firefox */
+    cursor: grab;
+    user-select: none; /* 선택 방지 */
+    -webkit-overflow-scrolling: touch; /* iOS 자연 스크롤 */
+  }
+  .sub-sec.service .manage-card-wrap > ul::-webkit-scrollbar {
+    display: none !important; /* Chrome, Safari, Opera */
   }
 }
 @media (max-width: 768px) {
@@ -260,8 +266,14 @@
   .sub-sec.service .icon-card-wrap > div {
     margin-right: 2rem;
     overflow-x: auto;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+    -ms-overflow-style: none; /* IE, Edge */
+    scrollbar-width: none; /* Firefox */
+    cursor: grab;
+    user-select: none; /* 선택 방지 */
+    -webkit-overflow-scrolling: touch; /* iOS 자연 스크롤 */
+  }
+  .sub-sec.service .icon-card-wrap > div::-webkit-scrollbar {
+    display: none !important; /* Chrome, Safari, Opera */
   }
 }
 .sub-sec.service .icon-card-wrap > div ul {
@@ -603,6 +615,12 @@
   padding-bottom: 10rem;
   background: #F5F6F8;
 }
+@media (max-width: 1280px) {
+  .sub-sec.price:nth-of-type(2) > .inner {
+    width: calc(100% - 2rem);
+    margin-left: 2rem;
+  }
+}
 .sub-sec.price .price-card-wrap > ul {
   width: 100%;
   display: flex;
@@ -878,7 +896,20 @@
 }
 .sub-sec.price .tb-wrap {
   position: relative;
-  overflow-x: auto;
+}
+@media (max-width: 1280px) {
+  .sub-sec.price .tb-wrap {
+    padding-right: 2rem;
+    overflow-x: auto;
+    -ms-overflow-style: none; /* IE, Edge */
+    scrollbar-width: none; /* Firefox */
+    cursor: grab;
+    user-select: none; /* 선택 방지 */
+    -webkit-overflow-scrolling: touch; /* iOS 자연 스크롤 */
+  }
+  .sub-sec.price .tb-wrap::-webkit-scrollbar {
+    display: none !important; /* Chrome, Safari, Opera */
+  }
 }
 .sub-sec.price .tb-wrap.blue table span.include {
   background: url(../../../assets/images/icon/include.png) no-repeat center #0066FF;
@@ -901,6 +932,9 @@
     min-width: 900px;
   }
 }
+.sub-sec.price .tb-wrap table thead {
+  border-bottom: 1px solid #000;
+}
 .sub-sec.price .tb-wrap table thead tr th {
   padding: 1.1rem 1.6rem;
   font-size: 3rem;
@@ -915,9 +949,6 @@
 .sub-sec.price .tb-wrap table thead tr th:first-of-type {
   position: sticky;
   left: 0;
-}
-.sub-sec.price .tb-wrap table tbody {
-  border-top: 1px solid #000;
 }
 .sub-sec.price .tb-wrap table tbody tr:not(:last-child) {
   border-bottom: 1px solid #C2C4C8;

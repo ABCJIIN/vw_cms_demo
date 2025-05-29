@@ -266,15 +266,12 @@ footer {
                 }
             }
             &.info {
-                @include tablet {
-                    order: 1;
-                }
                 > div {
                     ul {
                         margin-bottom: .8rem;
                         @include flexbox(row, flex-start, flex-start);
                         gap: 2rem;
-                        @include notebook {
+                        @include tablet {
                             flex-direction: column;
                             gap: 0;
                         }
@@ -336,7 +333,7 @@ footer {
                     }
                 }
             }
-            &:not(.info) {
+            &.family-site {
                 ul {
                     @include flexbox(column, flex-start, flex-start);
                     gap: .8rem;
@@ -350,16 +347,6 @@ footer {
                             color: #ccc;
                         }
                     }
-                }
-            }
-            &.customer-support {
-                @include tablet {
-                    order: 0;
-                }
-            }
-            &.family-site {
-                @include tablet {
-                    order: 2;
                 }
             }
         }

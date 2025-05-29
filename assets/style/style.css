@@ -786,11 +786,6 @@ footer .inner > div > strong {
     padding-bottom: 0.8rem;
   }
 }
-@media (max-width: 768px) {
-  footer .inner > div.info {
-    order: 1;
-  }
-}
 footer .inner > div.info > div ul {
   margin-bottom: 0.8rem;
   display: flex;
@@ -799,7 +794,7 @@ footer .inner > div.info > div ul {
   align-items: flex-start;
   gap: 2rem;
 }
-@media (max-width: 1280px) {
+@media (max-width: 768px) {
   footer .inner > div.info > div ul {
     flex-direction: column;
     gap: 0;
@@ -859,32 +854,22 @@ footer .inner > div.info > ul li:first-child::before {
   height: 12px;
   background: #ccc;
 }
-footer .inner > div:not(.info) ul {
+footer .inner > div.family-site ul {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 0.8rem;
 }
-footer .inner > div:not(.info) ul li {
+footer .inner > div.family-site ul li {
   font-size: 1.4rem;
   font-weight: 700;
   color: #ccc;
 }
-footer .inner > div:not(.info) ul li a {
+footer .inner > div.family-site ul li a {
   font-size: 1.4rem;
   font-weight: 700;
   color: #ccc;
-}
-@media (max-width: 768px) {
-  footer .inner > div.customer-support {
-    order: 0;
-  }
-}
-@media (max-width: 768px) {
-  footer .inner > div.family-site {
-    order: 2;
-  }
 }
 
 /* 메인&서브 공통 레이아웃 */
