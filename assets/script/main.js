@@ -303,4 +303,58 @@ $(function(){
         }
     });
 
+    // PC환경 마우스 터치 스크롤
+    function bindDragScroll(selector) {
+        const elements = document.querySelectorAll(selector);
+
+        elements.forEach(el => {
+            let isDown = false;
+            let startX;
+            let scrollLeft;
+
+            // 마우스 이벤트
+            el.addEventListener('mousedown', e => {
+                isDown = true;
+                el.classList.add('dragging');
+                startX = e.pageX - el.offsetLeft;
+                scrollLeft = el.scrollLeft;
+            });
+
+            el.addEventListener('mouseleave', () => {
+                isDown = false;
+                el.classList.remove('dragging');
+            });
+
+            el.addEventListener('mouseup', () => {
+                isDown = false;
+                el.classList.remove('dragging');
+            });
+
+            el.addEventListener('mousemove', e => {
+                if (!isDown) return;
+                e.preventDefault();
+                const x = e.pageX - el.offsetLeft;
+                const walk = (x - startX); // 드래그 거리
+                el.scrollLeft = scrollLeft - walk;
+            });
+
+            // 터치 이벤트
+            el.addEventListener('touchstart', e => {
+                startX = e.touches[0].pageX - el.offsetLeft;
+                scrollLeft = el.scrollLeft;
+            });
+
+            el.addEventListener('touchmove', e => {
+                const x = e.touches[0].pageX - el.offsetLeft;
+                const walk = x - startX;
+                el.scrollLeft = scrollLeft - walk;
+            });
+        });
+    }
+    bindDragScroll('.main-sec.cooperate .detail ul');
+    bindDragScroll('.main-sec.sec05 .list-wrap ul');
+    bindDragScroll('.sub-sec.service .manage-card-wrap > ul');
+    bindDragScroll('.sub-sec.service .icon-card-wrap > div');
+    bindDragScroll('.sub-sec.price .tb-wrap');
+
 });

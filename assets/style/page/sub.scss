@@ -87,8 +87,14 @@
                 @include notebook {
                     padding-right: 2rem;
                     overflow-x: auto;
-                    -ms-overflow-style: none;
-                    scrollbar-width: none;
+                    -ms-overflow-style: none; /* IE, Edge */
+                    scrollbar-width: none; /* Firefox */
+                    &::-webkit-scrollbar {
+                        display: none !important; /* Chrome, Safari, Opera */
+                    }
+                    cursor: grab;
+                    user-select: none; /* 선택 방지 */
+                    -webkit-overflow-scrolling: touch; /* iOS 자연 스크롤 */
                 }
                 @include tablet {
                     gap: .8rem;
@@ -199,8 +205,14 @@
                 @include notebook {
                     margin-right: 2rem;
                     overflow-x: auto;
-                    -ms-overflow-style: none;
-                    scrollbar-width: none;
+                    -ms-overflow-style: none; /* IE, Edge */
+                    scrollbar-width: none; /* Firefox */
+                    &::-webkit-scrollbar {
+                        display: none !important; /* Chrome, Safari, Opera */
+                    }
+                    cursor: grab;
+                    user-select: none; /* 선택 방지 */
+                    -webkit-overflow-scrolling: touch; /* iOS 자연 스크롤 */
                 }
                 ul {
                     width: 100%;
@@ -509,7 +521,13 @@
         &:nth-of-type(2) {
             padding-top: 10rem;
             padding-bottom: 10rem;
-            background: #F5F6F8
+            background: #F5F6F8;
+            > .inner {
+                @include notebook {
+                    width: calc(100% - 2rem);
+                    margin-left: 2rem;
+                }
+            }
         }
         .price-card-wrap {
             > ul {
@@ -775,7 +793,18 @@
         }
         .tb-wrap {
             position: relative;
-            overflow-x: auto;
+            @include notebook {
+                padding-right: 2rem;
+                overflow-x: auto;
+                -ms-overflow-style: none; /* IE, Edge */
+                scrollbar-width: none; /* Firefox */
+                &::-webkit-scrollbar {
+                    display: none !important; /* Chrome, Safari, Opera */
+                }
+                cursor: grab;
+                user-select: none; /* 선택 방지 */
+                -webkit-overflow-scrolling: touch; /* iOS 자연 스크롤 */
+            }
             &.blue {
                 table {
                     span {
@@ -819,6 +848,7 @@
                     min-width: 900px;
                 }
                 thead {
+                    border-bottom: 1px solid $black;
                     tr {
                         th {
                             padding: 1.1rem 1.6rem;
@@ -836,7 +866,7 @@
                     }
                 }
                 tbody {
-                    border-top: 1px solid $black;
+                    // border-top: 1px solid $black;
                     tr {
                         &:not(:last-child) {
                             border-bottom: 1px solid #C2C4C8;
