@@ -4,9 +4,9 @@
     /* 서비스 소개 페이지 */
     &.service {
         &.visual {
-            background: url(./assets/images/sub/sub_visual_bg.png) no-repeat center/cover;
+            background: url(../../../assets/images/sub/sub_visual_bg.png) no-repeat center/cover;
             @include tablet {
-                background: url(./assets/images/sub/mo/sub_visual_bg.png) no-repeat center/cover;
+                background: url(../../../assets/images/sub/mo/sub_visual_bg.png) no-repeat center/cover;
             }
             .inner {
                 width: 100%;
@@ -108,17 +108,17 @@
                     }
                     &:first-of-type {
                         .img-wrap {
-                            background: url(./assets/images/sub/manage_card_item01.png) no-repeat center/cover;
+                            background: url(../../../assets/images/sub/manage_card_item01.png) no-repeat center/cover;
                         }
                     }
                     &:nth-of-type(2) {
                         .img-wrap {
-                            background: url(./assets/images/sub/manage_card_item02.png) no-repeat center/cover;
+                            background: url(../../../assets/images/sub/manage_card_item02.png) no-repeat center/cover;
                         }
                     }
                     &:last-of-type {
                         .img-wrap {
-                            background: url(./assets/images/sub/manage_card_item03.png) no-repeat center/cover;
+                            background: url(../../../assets/images/sub/manage_card_item03.png) no-repeat center/cover;
                         }
                     }
                     .img-wrap {
@@ -211,7 +211,7 @@
                         li {
                             &:first-of-type {
                                 .img-wrap {
-                                    background: url(./assets/images/sub/icon_card_item01.png) no-repeat center $white;
+                                    background: url(../../../assets/images/sub/icon_card_item01.png) no-repeat center $white;
                                     @include tablet {
                                         background-size: 5.4rem;
                                     }
@@ -219,7 +219,7 @@
                             }
                             &:nth-of-type(2) {
                                 .img-wrap {
-                                    background: url(./assets/images/sub/icon_card_item02.png) no-repeat center $white;
+                                    background: url(../../../assets/images/sub/icon_card_item02.png) no-repeat center $white;
                                     @include tablet {
                                         background-size: 5.4rem;
                                     }
@@ -227,7 +227,7 @@
                             }
                             &:nth-of-type(3) {
                                 .img-wrap {
-                                    background: url(./assets/images/sub/icon_card_item03.png) no-repeat center $white;
+                                    background: url(../../../assets/images/sub/icon_card_item03.png) no-repeat center $white;
                                     @include tablet {
                                         background-size: 5.4rem;
                                     }
@@ -235,7 +235,7 @@
                             }
                             &:nth-of-type(4) {
                                 .img-wrap {
-                                    background: url(./assets/images/sub/icon_card_item04.png) no-repeat center $white;
+                                    background: url(../../../assets/images/sub/icon_card_item04.png) no-repeat center $white;
                                     @include tablet {
                                         background-size: 5.4rem;
                                     }
@@ -243,7 +243,7 @@
                             }
                             &:last-of-type {
                                 .img-wrap {
-                                    background: url(./assets/images/sub/icon_card_item05.png) no-repeat center $white;
+                                    background: url(../../../assets/images/sub/icon_card_item05.png) no-repeat center $white;
                                     @include tablet {
                                         background-size: 5.4rem;
                                     }
@@ -255,7 +255,7 @@
                         li {
                             &:first-of-type {
                                 .img-wrap {
-                                    background: url(./assets/images/sub/icon_card_item06.png) no-repeat center $white;
+                                    background: url(../../../assets/images/sub/icon_card_item06.png) no-repeat center $white;
                                     @include tablet {
                                         background-size: 5.4rem;
                                     }
@@ -263,7 +263,7 @@
                             }
                             &:nth-of-type(2) {
                                 .img-wrap {
-                                    background: url(./assets/images/sub/icon_card_item07.png) no-repeat center $white;
+                                    background: url(../../../assets/images/sub/icon_card_item07.png) no-repeat center $white;
                                     @include tablet {
                                         background-size: 5.4rem;
                                     }
@@ -271,7 +271,7 @@
                             }
                             &:nth-of-type(3) {
                                 .img-wrap {
-                                    background: url(./assets/images/sub/icon_card_item08.png) no-repeat center $white;
+                                    background: url(../../../assets/images/sub/icon_card_item08.png) no-repeat center $white;
                                     @include tablet {
                                         background-size: 5.4rem;
                                     }
@@ -279,7 +279,7 @@
                             }
                             &:nth-of-type(4) {
                                 .img-wrap {
-                                    background: url(./assets/images/sub/icon_card_item09.png) no-repeat center $white;
+                                    background: url(../../../assets/images/sub/icon_card_item09.png) no-repeat center $white;
                                     @include tablet {
                                         background-size: 5.4rem;
                                     }
@@ -287,7 +287,7 @@
                             }
                             &:last-of-type {
                                 .img-wrap {
-                                    background: url(./assets/images/sub/icon_card_item10.png) no-repeat center $white;
+                                    background: url(../../../assets/images/sub/icon_card_item10.png) no-repeat center $white;
                                     @include tablet {
                                         background-size: 5.4rem;
                                     }
@@ -547,7 +547,7 @@
                                 &:nth-of-type(2) {
                                     li {
                                         &::before {
-                                            background: url(./assets/images/icon/include.png) no-repeat center/contain #0066FF;
+                                            background: url(../../../assets/images/icon/include.png) no-repeat center/contain #0066FF;
                                         }
                                     }
                                 }
@@ -567,7 +567,7 @@
                                 &:nth-of-type(2) {
                                     li {
                                         &::before {
-                                            background: url(./assets/images/icon/include.png) no-repeat center/contain #26BD76;
+                                            background: url(../../../assets/images/icon/include.png) no-repeat center/contain #26BD76;
                                         }
                                     }
                                 }
@@ -587,7 +587,7 @@
                                 &:nth-of-type(2) {
                                     li {
                                         &::before {
-                                            background: url(./assets/images/icon/include.png) no-repeat center/contain #863CFF;
+                                            background: url(../../../assets/images/icon/include.png) no-repeat center/contain #863CFF;
                                         }
                                     }
                                 }
@@ -607,7 +607,7 @@
                                 &:nth-of-type(2) {
                                     li {
                                         &::before {
-                                            background: url(./assets/images/icon/include.png) no-repeat center/contain #FF7801;
+                                            background: url(../../../assets/images/icon/include.png) no-repeat center/contain #FF7801;
                                         }
                                     }
                                 }
@@ -649,7 +649,7 @@
                                     padding-bottom: 2rem;
                                     li {
                                         &::before {
-                                            background: url(./assets/images/icon/info.png) no-repeat center #C2C4C8;
+                                            background: url(../../../assets/images/icon/info.png) no-repeat center #C2C4C8;
                                         }
                                     }
                                 }
@@ -780,7 +780,7 @@
                 table {
                     span {
                         &.include {
-                            background: url(./assets/images/icon/include.png) no-repeat center #0066FF;
+                            background: url(../../../assets/images/icon/include.png) no-repeat center #0066FF;
                         }
                     }
                 }
@@ -789,7 +789,7 @@
                 table {
                     span {
                         &.include {
-                            background: url(./assets/images/icon/include.png) no-repeat center #26BD76;
+                            background: url(../../../assets/images/icon/include.png) no-repeat center #26BD76;
                         }
                     }
                 }
@@ -798,7 +798,7 @@
                 table {
                     span {
                         &.include {
-                            background: url(./assets/images/icon/include.png) no-repeat center #863CFF;
+                            background: url(../../../assets/images/icon/include.png) no-repeat center #863CFF;
                         }
                     }
                 }
@@ -807,7 +807,7 @@
                 table {
                     span {
                         &.include {
-                            background: url(./assets/images/icon/include.png) no-repeat center #FF7801;
+                            background: url(../../../assets/images/icon/include.png) no-repeat center #FF7801;
                         }
                     }
                 }
@@ -892,7 +892,7 @@
                                 height: 2.4rem;
                                 border-radius: 50%;
                                 &.exclude {
-                                    background: url(./assets/images/icon/exclude.png) no-repeat center #E8E9EC;
+                                    background: url(../../../assets/images/icon/exclude.png) no-repeat center #E8E9EC;
                                 }
                             }
                         }
