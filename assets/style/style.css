@@ -206,7 +206,7 @@ body {
   width: 5rem;
   height: 5rem;
   border-radius: 50%;
-  background: url(../../../assets/images/icon/arrow_top.png) no-repeat center #fff;
+  background: url(../../assets/images/icon/arrow_top.png) no-repeat center #fff;
   cursor: pointer;
   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
   z-index: 888;
@@ -317,7 +317,7 @@ input[type=checkbox]::before {
   background: #FFFFFF;
 }
 input[type=checkbox]:checked::before {
-  background: url(../../../assets/images/icon/check.png) no-repeat center #FFFFFF;
+  background: url(../../assets/images/icon/check.png) no-repeat center #FFFFFF;
 }
 input[type=checkbox]:focus-visible {
   outline: 2px solid black;
@@ -424,7 +424,7 @@ textarea::placeholder {
   right: 2.3rem;
   top: 50%;
   transform: translateY(-50%);
-  background: url(../../../assets/images/icon/arrow_down_bk.png) no-repeat center/contain;
+  background: url(../../assets/images/icon/arrow_down_bk.png) no-repeat center/contain;
   transition: all 0.25s;
 }
 @media (max-width: 768px) {
@@ -609,7 +609,7 @@ header .inner:not(.mo) button {
   height: 2.4rem;
 }
 header .inner:not(.mo) button.menu-btn {
-  background: url(../../../assets/images/icon/menu.svg) no-repeat center/contain;
+  background: url(../../assets/images/icon/menu.svg) no-repeat center/contain;
 }
 header.convert .inner .logo a img.d-pc.black {
   display: block;
@@ -632,7 +632,7 @@ header.convert .inner .gnb ul li a {
   color: #000;
 }
 header.convert .inner button.menu-btn {
-  background: url(../../../assets/images/icon/menu_bk.svg) no-repeat center/contain;
+  background: url(../../assets/images/icon/menu_bk.svg) no-repeat center/contain;
 }
 header.scrolled {
   background: #000;
@@ -661,7 +661,7 @@ header.scrolled .inner .gnb ul li a {
   color: #fff;
 }
 header.scrolled .inner button.menu-btn {
-  background: url(../../../assets/images/icon/menu.svg) no-repeat center/contain;
+  background: url(../../assets/images/icon/menu.svg) no-repeat center/contain;
 }
 header .inner.mo {
   display: none;
@@ -691,7 +691,7 @@ header .inner.mo .btn-wrap {
 header .inner.mo .btn-wrap button.close-btn {
   width: 2.4rem;
   height: 2.4rem;
-  background: url(../../../assets/images/icon/close.svg) no-repeat center;
+  background: url(../../assets/images/icon/close.svg) no-repeat center;
 }
 header .inner.mo .gnb {
   width: 100%;
@@ -964,7 +964,7 @@ section .tit-wrap.type01 p {
 
 /* 서비스 문의하기 배너 */
 section.banner {
-  background: url(../../../assets/images/common/banner_bg.png) no-repeat center/cover;
+  background: url(../../assets/images/common/banner_bg.png) no-repeat center/cover;
 }
 @media (max-width: 768px) {
   section.banner {
@@ -988,7 +988,7 @@ section.banner .inner {
     align-items: center;
     gap: 4rem;
     border-radius: 0.8rem;
-    background: url(../../../assets/images/common/mo/banner_bg.png) no-repeat center/cover;
+    background: url(../../assets/images/common/mo/banner_bg.png) no-repeat center/cover;
   }
 }
 section.banner .inner strong {
@@ -1075,7 +1075,7 @@ section.qna .inner .con-wrap ul li .q-wrap::before {
   transform: translateY(-50%);
   width: 24px;
   height: 24px;
-  background: url(../../../assets/images/icon/arrow_down.png) no-repeat center/contain;
+  background: url(../../assets/images/icon/arrow_down.png) no-repeat center/contain;
   transition: all 0.25s;
 }
 @media (max-width: 768px) {
