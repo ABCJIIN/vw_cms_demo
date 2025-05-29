@@ -3,33 +3,33 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("Pretendard Bold"), local("Pretendard-Bold"), url(/assets/font/Pretendard-Bold.eot), url(/assets/font/Pretendard-Bold.eot?#iefix) format("embedded-opentype"), url(/assets/font/Pretendard-Bold.woff) format("woff"), url(/assets/font/Pretendard-Bold.otf) format("opentype");
+  src: local("Pretendard Bold"), local("Pretendard-Bold"), url(./assets/font/Pretendard-Bold.eot), url(./assets/font/Pretendard-Bold.eot?#iefix) format("embedded-opentype"), url(./assets/font/Pretendard-Bold.woff) format("woff"), url(./assets/font/Pretendard-Bold.otf) format("opentype");
 }
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: local("Pretendard SemiBold"), local("Pretendard-SemiBold"), url(/assets/font/Pretendard-SemiBold.eot), url(/assets/font/Pretendard-SemiBold.eot?#iefix) format("embedded-opentype"), url(/assets/font/Pretendard-SemiBold.woff) format("woff"), url(/assets/font/Pretendard-SemiBold.otf) format("opentype");
+  src: local("Pretendard SemiBold"), local("Pretendard-SemiBold"), url(./assets/font/Pretendard-SemiBold.eot), url(./assets/font/Pretendard-SemiBold.eot?#iefix) format("embedded-opentype"), url(./assets/font/Pretendard-SemiBold.woff) format("woff"), url(./assets/font/Pretendard-SemiBold.otf) format("opentype");
 }
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: local("Pretendard Medium"), local("Pretendard-Medium"), url(/assets/font/Pretendard-Medium.eot), url(/assets/font/Pretendard-Medium.eot?#iefix) format("embedded-opentype"), url(/assets/font/Pretendard-Medium.woff) format("woff"), url(/assets/font/Pretendard-Medium.otf) format("opentype");
+  src: local("Pretendard Medium"), local("Pretendard-Medium"), url(./assets/font/Pretendard-Medium.eot), url(./assets/font/Pretendard-Medium.eot?#iefix) format("embedded-opentype"), url(./assets/font/Pretendard-Medium.woff) format("woff"), url(./assets/font/Pretendard-Medium.otf) format("opentype");
 }
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("Pretendard Regular"), local("Pretendard-Regular"), url(/assets/font/Pretendard-Regular.eot), url(/assets/font/Pretendard-Regular.eot?#iefix) format("embedded-opentype"), url(/assets/font/Pretendard-Regular.woff) format("woff"), url(/assets/font/Pretendard-Regular.otf) format("opentype");
+  src: local("Pretendard Regular"), local("Pretendard-Regular"), url(./assets/font/Pretendard-Regular.eot), url(./assets/font/Pretendard-Regular.eot?#iefix) format("embedded-opentype"), url(./assets/font/Pretendard-Regular.woff) format("woff"), url(./assets/font/Pretendard-Regular.otf) format("opentype");
 }
 @font-face {
   font-family: "Pretendard";
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: local("Pretendard Light"), local("Pretendard-Light"), url(/assets/font/Pretendard-Light.eot), url(/assets/font/Pretendard-Light.eot?#iefix) format("embedded-opentype"), url(/assets/font/Pretendard-Light.woff) format("woff"), url(/assets/font/Pretendard-Light.otf) format("opentype");
+  src: local("Pretendard Light"), local("Pretendard-Light"), url(./assets/font/Pretendard-Light.eot), url(./assets/font/Pretendard-Light.eot?#iefix) format("embedded-opentype"), url(./assets/font/Pretendard-Light.woff) format("woff"), url(./assets/font/Pretendard-Light.otf) format("opentype");
 }

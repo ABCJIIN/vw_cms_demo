@@ -26,11 +26,11 @@
   /* 문의하기 페이지, 신청하기 페이지 */
 }
 .sub-sec.service.visual {
-  background: url(/assets/images/sub/sub_visual_bg.png) no-repeat center/cover;
+  background: url(./assets/images/sub/sub_visual_bg.png) no-repeat center/cover;
 }
 @media (max-width: 768px) {
   .sub-sec.service.visual {
-    background: url(/assets/images/sub/mo/sub_visual_bg.png) no-repeat center/cover;
+    background: url(./assets/images/sub/mo/sub_visual_bg.png) no-repeat center/cover;
   }
 }
 .sub-sec.service.visual .inner {
@@ -155,13 +155,13 @@
   }
 }
 .sub-sec.service .manage-card-wrap > ul > li:first-of-type .img-wrap {
-  background: url(/assets/images/sub/manage_card_item01.png) no-repeat center/cover;
+  background: url(./assets/images/sub/manage_card_item01.png) no-repeat center/cover;
 }
 .sub-sec.service .manage-card-wrap > ul > li:nth-of-type(2) .img-wrap {
-  background: url(/assets/images/sub/manage_card_item02.png) no-repeat center/cover;
+  background: url(./assets/images/sub/manage_card_item02.png) no-repeat center/cover;
 }
 .sub-sec.service .manage-card-wrap > ul > li:last-of-type .img-wrap {
-  background: url(/assets/images/sub/manage_card_item03.png) no-repeat center/cover;
+  background: url(./assets/images/sub/manage_card_item03.png) no-repeat center/cover;
 }
 .sub-sec.service .manage-card-wrap > ul > li .img-wrap {
   width: 100%;
@@ -276,7 +276,7 @@
   padding-bottom: 2rem;
 }
 .sub-sec.service .icon-card-wrap > div ul:first-of-type li:first-of-type .img-wrap {
-  background: url(/assets/images/sub/icon_card_item01.png) no-repeat center #fff;
+  background: url(./assets/images/sub/icon_card_item01.png) no-repeat center #fff;
 }
 @media (max-width: 768px) {
   .sub-sec.service .icon-card-wrap > div ul:first-of-type li:first-of-type .img-wrap {
@@ -284,7 +284,7 @@
   }
 }
 .sub-sec.service .icon-card-wrap > div ul:first-of-type li:nth-of-type(2) .img-wrap {
-  background: url(/assets/images/sub/icon_card_item02.png) no-repeat center #fff;
+  background: url(./assets/images/sub/icon_card_item02.png) no-repeat center #fff;
 }
 @media (max-width: 768px) {
   .sub-sec.service .icon-card-wrap > div ul:first-of-type li:nth-of-type(2) .img-wrap {
@@ -292,7 +292,7 @@
   }
 }
 .sub-sec.service .icon-card-wrap > div ul:first-of-type li:nth-of-type(3) .img-wrap {
-  background: url(/assets/images/sub/icon_card_item03.png) no-repeat center #fff;
+  background: url(./assets/images/sub/icon_card_item03.png) no-repeat center #fff;
 }
 @media (max-width: 768px) {
   .sub-sec.service .icon-card-wrap > div ul:first-of-type li:nth-of-type(3) .img-wrap {
@@ -300,7 +300,7 @@
   }
 }
 .sub-sec.service .icon-card-wrap > div ul:first-of-type li:nth-of-type(4) .img-wrap {
-  background: url(/assets/images/sub/icon_card_item04.png) no-repeat center #fff;
+  background: url(./assets/images/sub/icon_card_item04.png) no-repeat center #fff;
 }
 @media (max-width: 768px) {
   .sub-sec.service .icon-card-wrap > div ul:first-of-type li:nth-of-type(4) .img-wrap {
@@ -308,7 +308,7 @@
   }
 }
 .sub-sec.service .icon-card-wrap > div ul:first-of-type li:last-of-type .img-wrap {
-  background: url(/assets/images/sub/icon_card_item05.png) no-repeat center #fff;
+  background: url(./assets/images/sub/icon_card_item05.png) no-repeat center #fff;
 }
 @media (max-width: 768px) {
   .sub-sec.service .icon-card-wrap > div ul:first-of-type li:last-of-type .img-wrap {
@@ -316,7 +316,7 @@
   }
 }
 .sub-sec.service .icon-card-wrap > div ul:last-of-type li:first-of-type .img-wrap {
-  background: url(/assets/images/sub/icon_card_item06.png) no-repeat center #fff;
+  background: url(./assets/images/sub/icon_card_item06.png) no-repeat center #fff;
 }
 @media (max-width: 768px) {
   .sub-sec.service .icon-card-wrap > div ul:last-of-type li:first-of-type .img-wrap {
@@ -324,7 +324,7 @@
   }
 }
 .sub-sec.service .icon-card-wrap > div ul:last-of-type li:nth-of-type(2) .img-wrap {
-  background: url(/assets/images/sub/icon_card_item07.png) no-repeat center #fff;
+  background: url(./assets/images/sub/icon_card_item07.png) no-repeat center #fff;
 }
 @media (max-width: 768px) {
   .sub-sec.service .icon-card-wrap > div ul:last-of-type li:nth-of-type(2) .img-wrap {
@@ -332,7 +332,7 @@
   }
 }
 .sub-sec.service .icon-card-wrap > div ul:last-of-type li:nth-of-type(3) .img-wrap {
-  background: url(/assets/images/sub/icon_card_item08.png) no-repeat center #fff;
+  background: url(./assets/images/sub/icon_card_item08.png) no-repeat center #fff;
 }
 @media (max-width: 768px) {
   .sub-sec.service .icon-card-wrap > div ul:last-of-type li:nth-of-type(3) .img-wrap {
@@ -340,7 +340,7 @@
   }
 }
 .sub-sec.service .icon-card-wrap > div ul:last-of-type li:nth-of-type(4) .img-wrap {
-  background: url(/assets/images/sub/icon_card_item09.png) no-repeat center #fff;
+  background: url(./assets/images/sub/icon_card_item09.png) no-repeat center #fff;
 }
 @media (max-width: 768px) {
   .sub-sec.service .icon-card-wrap > div ul:last-of-type li:nth-of-type(4) .img-wrap {
@@ -348,7 +348,7 @@
   }
 }
 .sub-sec.service .icon-card-wrap > div ul:last-of-type li:last-of-type .img-wrap {
-  background: url(/assets/images/sub/icon_card_item10.png) no-repeat center #fff;
+  background: url(./assets/images/sub/icon_card_item10.png) no-repeat center #fff;
 }
 @media (max-width: 768px) {
   .sub-sec.service .icon-card-wrap > div ul:last-of-type li:last-of-type .img-wrap {
@@ -647,7 +647,7 @@
   color: #0066FF;
 }
 .sub-sec.price .price-card-wrap > ul > li.card01 .info ul:nth-of-type(2) li::before {
-  background: url(/assets/images/icon/include.png) no-repeat center/contain #0066FF;
+  background: url(./assets/images/icon/include.png) no-repeat center/contain #0066FF;
 }
 .sub-sec.price .price-card-wrap > ul > li.card02 {
   border: 1px solid #5EC695;
@@ -659,7 +659,7 @@
   color: #02AE4C;
 }
 .sub-sec.price .price-card-wrap > ul > li.card02 .info ul:nth-of-type(2) li::before {
-  background: url(/assets/images/icon/include.png) no-repeat center/contain #26BD76;
+  background: url(./assets/images/icon/include.png) no-repeat center/contain #26BD76;
 }
 .sub-sec.price .price-card-wrap > ul > li.card03 {
   border: 1px solid #925FE6;
@@ -671,7 +671,7 @@
   color: #7F30FF;
 }
 .sub-sec.price .price-card-wrap > ul > li.card03 .info ul:nth-of-type(2) li::before {
-  background: url(/assets/images/icon/include.png) no-repeat center/contain #863CFF;
+  background: url(./assets/images/icon/include.png) no-repeat center/contain #863CFF;
 }
 .sub-sec.price .price-card-wrap > ul > li.card04 {
   border: 1px solid #F78022;
@@ -683,7 +683,7 @@
   color: #FF7801;
 }
 .sub-sec.price .price-card-wrap > ul > li.card04 .info ul:nth-of-type(2) li::before {
-  background: url(/assets/images/icon/include.png) no-repeat center/contain #FF7801;
+  background: url(./assets/images/icon/include.png) no-repeat center/contain #FF7801;
 }
 .sub-sec.price .price-card-wrap > ul > li .title {
   padding: 3rem;
@@ -730,7 +730,7 @@
   padding-bottom: 2rem;
 }
 .sub-sec.price .price-card-wrap > ul > li .info .txt-wrap ul:first-of-type li::before {
-  background: url(/assets/images/icon/info.png) no-repeat center #C2C4C8;
+  background: url(./assets/images/icon/info.png) no-repeat center #C2C4C8;
 }
 .sub-sec.price .price-card-wrap > ul > li .info .txt-wrap ul li {
   position: relative;
@@ -881,16 +881,16 @@
   overflow-x: auto;
 }
 .sub-sec.price .tb-wrap.blue table span.include {
-  background: url(/assets/images/icon/include.png) no-repeat center #0066FF;
+  background: url(./assets/images/icon/include.png) no-repeat center #0066FF;
 }
 .sub-sec.price .tb-wrap.green table span.include {
-  background: url(/assets/images/icon/include.png) no-repeat center #26BD76;
+  background: url(./assets/images/icon/include.png) no-repeat center #26BD76;
 }
 .sub-sec.price .tb-wrap.purple table span.include {
-  background: url(/assets/images/icon/include.png) no-repeat center #863CFF;
+  background: url(./assets/images/icon/include.png) no-repeat center #863CFF;
 }
 .sub-sec.price .tb-wrap.orange table span.include {
-  background: url(/assets/images/icon/include.png) no-repeat center #FF7801;
+  background: url(./assets/images/icon/include.png) no-repeat center #FF7801;
 }
 .sub-sec.price .tb-wrap table {
   width: 100%;
@@ -967,7 +967,7 @@
   border-radius: 50%;
 }
 .sub-sec.price .tb-wrap table tbody tr td span.exclude {
-  background: url(/assets/images/icon/exclude.png) no-repeat center #E8E9EC;
+  background: url(./assets/images/icon/exclude.png) no-repeat center #E8E9EC;
 }
 .sub-sec.price .tb-wrap .btn-wrap {
   position: relative;

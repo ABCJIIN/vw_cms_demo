@@ -85,7 +85,7 @@
   display: block;
   width: 3.2rem;
   height: 3.2rem;
-  background: url(/assets/images/icon/x_icon.png) no-repeat center/contain;
+  background: url(./assets/images/icon/x_icon.png) no-repeat center/contain;
 }
 .main-sec.main-visual .inner .tit-wrap button {
   margin-top: 5rem;
@@ -256,11 +256,11 @@
 }
 .main-sec.sec03 .slide-cont .btn-wrap .swiper-button-prev {
   left: 0;
-  background: url(/assets/images/icon/arrow_left.png) no-repeat center #000;
+  background: url(./assets/images/icon/arrow_left.png) no-repeat center #000;
 }
 .main-sec.sec03 .slide-cont .btn-wrap .swiper-button-next {
   right: 0;
-  background: url(/assets/images/icon/arrow_right.png) no-repeat center #000;
+  background: url(./assets/images/icon/arrow_right.png) no-repeat center #000;
 }
 .main-sec.cooperate {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%), linear-gradient(102deg, #00AD51 19.94%, #5F5FE2 83.19%);
