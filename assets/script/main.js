@@ -357,4 +357,8 @@ $(function(){
     bindDragScroll('.sub-sec.service .icon-card-wrap > div');
     bindDragScroll('.sub-sec.price .tb-wrap');
 
+    $("img").on('dragstart', function(e) {
+        e.preventDefault();
+    });
+
 });
