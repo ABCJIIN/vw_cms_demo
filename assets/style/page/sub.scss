@@ -521,7 +521,7 @@
                     @include flexbox(column, flex-start, center);
                     gap: 2.4rem;
                 }
-                > li {
+                > .card {
                     width: calc(25% - 1.5rem);
                     border-radius: 1.6rem;
                     background: $white;
@@ -534,7 +534,7 @@
                         width: 100%;
                         // max-width: 34.5rem;
                     }
-                    &.card01 {
+                    &.blue {
                         border: 1px solid #8EBCFF;
                         .title {
                             background: rgba(34, 122, 255, 0.20);
@@ -554,7 +554,7 @@
                             }
                         }
                     }
-                    &.card02 {
+                    &.green {
                         border: 1px solid #5EC695;
                         .title {
                             background: rgba(38, 189, 118, 0.10);
@@ -574,7 +574,7 @@
                             }
                         }
                     }
-                    &.card03 {
+                    &.purple {
                         border: 1px solid #925FE6;
                         .title {
                             background: rgba(127, 48, 255, 0.10);
@@ -594,7 +594,7 @@
                             }
                         }
                     }
-                    &.card04 {
+                    &.orange {
                         border: 1px solid #F78022;
                         .title {
                             background: rgba(255, 120, 1, 0.10);
@@ -1008,6 +1008,12 @@
                     @include tablet {
                         @include flexbox(column, flex-start, flex-start);
                         gap: .4rem;
+                    }
+                    &.portfolio-select {
+                        display: none;
+                        &.on {
+                            display: flex;
+                        }
                     }
                     &.type01 {
                         .input-tit {

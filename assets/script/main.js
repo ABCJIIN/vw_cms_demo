@@ -246,11 +246,61 @@ $(function(){
             }
         });
 
+        // 문의하기 페이지 select
+        $(".contact .option-list li").on("click", function (e) {
+            e.preventDefault();
+            if($(this).hasClass("portfolio") == true) {
+                $(".input-cont.portfolio-select").addClass("on");
+            } else {
+                $(".input-cont.portfolio-select").removeClass("on")
+            }
+        });
+
     }selectCustom();
 
     // 파일명 불러오기
     $('input[type=file]').change(function(e){
         $(this).siblings(".input-name").val(e.target.files[0].name);
+    });
+
+    // 가격 안내 자세히 보기 버튼
+    $(".price-card-wrap .card button").on("click", function (e) {
+        e.preventDefault();
+
+        const $card = $(this).closest('.card');
+        const $target = $('.sub-sec.price').eq(1); // 두 번째 .sub-sec.price
+        const $searchWrap = $target.find('.search-wrap');
+        const $tbWrap = $target.find('.tb-wrap');
+        const $selectBox = $('.select-box.type01');
+        const colors = ['blue', 'green', 'purple', 'orange'];
+
+        // 스크롤 이동
+        if ($target.length) {
+            $('html, body').animate({
+                scrollTop: $target.offset().top
+            }, 500);
+        }
+
+        // 카드의 색상 클래스 추출
+        const selectedColor = colors.find(color => $card.hasClass(color));
+
+        if (selectedColor) {
+            // 1. search-wrap 색상 클래스 적용
+            $searchWrap.removeClass(colors.join(' ')).addClass(selectedColor);
+
+            // 2. tb-wrap 색상 클래스 적용
+            $tbWrap.removeClass(colors.join(' ')).addClass(selectedColor);
+
+            // 3. select-box 옵션 li on 처리
+            const $optionList = $selectBox.find('.option-list li');
+            const $targetLi = $optionList.filter('.' + selectedColor);
+            $optionList.removeClass('on');
+            $targetLi.addClass('on');
+
+            // 4. select-item 텍스트 업데이트
+            const selectedText = $targetLi.text();
+            $selectBox.find('.select-item').text(selectedText).css('color', '#000');
+        }
     });
 
 });
