@@ -416,25 +416,25 @@
     font-size: 1.4rem;
   }
 }
-.sub-sec.service .sec04 {
+.sub-sec.service.sec04 {
   padding: 20rem 0;
   background: #F5F6F8;
 }
 @media (max-width: 768px) {
-  .sub-sec.service .sec04 {
+  .sub-sec.service.sec04 {
     padding: 10rem 0;
   }
 }
-.sub-sec.service .sec04 .tit-wrap p {
+.sub-sec.service.sec04 .tit-wrap p {
   display: none;
 }
 @media (max-width: 1280px) {
-  .sub-sec.service .sec04 .tit-wrap p {
+  .sub-sec.service.sec04 .tit-wrap p {
     display: block;
     text-align: center;
   }
 }
-.sub-sec.service .sec04 .notice {
+.sub-sec.service.sec04 .notice {
   width: calc(100% - 4rem);
   max-width: 1440px;
   padding: 5rem 6rem;
@@ -449,66 +449,66 @@
   gap: 13.1rem;
 }
 @media (max-width: 1280px) {
-  .sub-sec.service .sec04 .notice {
+  .sub-sec.service.sec04 .notice {
     padding: 4rem 2rem;
     justify-content: center;
     gap: 0;
   }
 }
 @media (max-width: 768px) {
-  .sub-sec.service .sec04 .notice {
+  .sub-sec.service.sec04 .notice {
     width: 100%;
     border-radius: 0;
     margin-bottom: 4rem;
   }
 }
-.sub-sec.service .sec04 .notice .left p {
+.sub-sec.service.sec04 .notice .left p {
   font-size: 3.4rem;
   font-weight: 700;
   color: #fff;
 }
 @media (max-width: 1280px) {
-  .sub-sec.service .sec04 .notice .left p {
+  .sub-sec.service.sec04 .notice .left p {
     display: none;
   }
 }
-.sub-sec.service .sec04 .notice .right > p {
+.sub-sec.service.sec04 .notice .right > p {
   margin-bottom: 0.6rem;
   font-size: 2rem;
   font-weight: 700;
   color: #fff;
 }
 @media (max-width: 768px) {
-  .sub-sec.service .sec04 .notice .right > p {
+  .sub-sec.service.sec04 .notice .right > p {
     font-size: 1.6rem;
   }
 }
 @media (max-width: 420px) {
-  .sub-sec.service .sec04 .notice .right > p {
+  .sub-sec.service.sec04 .notice .right > p {
     text-align: center;
   }
 }
-.sub-sec.service .sec04 .notice .right ul {
+.sub-sec.service.sec04 .notice .right ul {
   width: 100%;
 }
-.sub-sec.service .sec04 .notice .right ul li {
+.sub-sec.service.sec04 .notice .right ul li {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 0.8rem;
 }
-.sub-sec.service .sec04 .notice .right ul li span, .sub-sec.service .sec04 .notice .right ul li p {
+.sub-sec.service.sec04 .notice .right ul li span, .sub-sec.service.sec04 .notice .right ul li p {
   font-size: 1.6rem;
   color: #fff;
   line-height: 1.7;
 }
 @media (max-width: 768px) {
-  .sub-sec.service .sec04 .notice .right ul li span, .sub-sec.service .sec04 .notice .right ul li p {
+  .sub-sec.service.sec04 .notice .right ul li span, .sub-sec.service.sec04 .notice .right ul li p {
     font-size: 1.2rem;
   }
 }
-.sub-sec.service .sec04 .process-wrap .process ul {
+.sub-sec.service.sec04 .process-wrap .process ul {
   margin: 0 auto;
   max-width: 78.9rem;
   display: flex;
@@ -518,12 +518,12 @@
   gap: 12rem;
 }
 @media (max-width: 768px) {
-  .sub-sec.service .sec04 .process-wrap .process ul {
+  .sub-sec.service.sec04 .process-wrap .process ul {
     gap: 8rem;
     align-items: center;
   }
 }
-.sub-sec.service .sec04 .process-wrap .process ul li {
+.sub-sec.service.sec04 .process-wrap .process ul li {
   position: relative;
   min-height: 18.2rem;
   display: flex;
@@ -532,7 +532,7 @@
   align-items: flex-start;
   opacity: 0;
 }
-.sub-sec.service .sec04 .process-wrap .process ul li::before {
+.sub-sec.service.sec04 .process-wrap .process ul li::before {
   content: "";
   display: block;
   width: 3.4rem;
@@ -544,14 +544,14 @@
   aspect-ratio: 1/1;
 }
 @media (max-width: 768px) {
-  .sub-sec.service .sec04 .process-wrap .process ul li::before {
+  .sub-sec.service.sec04 .process-wrap .process ul li::before {
     width: 2.4rem;
     height: 2.4rem;
     margin-top: 0.6rem;
     margin-right: 1.3rem;
   }
 }
-.sub-sec.service .sec04 .process-wrap .process ul li:not(:last-child) > span::after {
+.sub-sec.service.sec04 .process-wrap .process ul li:not(:last-child) > span::after {
   content: "";
   position: absolute;
   top: 3.4rem;
@@ -561,26 +561,26 @@
   background: #227AFF;
 }
 @media (max-width: 768px) {
-  .sub-sec.service .sec04 .process-wrap .process ul li:not(:last-child) > span::after {
+  .sub-sec.service.sec04 .process-wrap .process ul li:not(:last-child) > span::after {
     width: 0.6rem;
     height: 24.7rem;
     top: 2.4rem;
     left: -2.8rem;
   }
 }
-.sub-sec.service .sec04 .process-wrap .process ul li.on {
+.sub-sec.service.sec04 .process-wrap .process ul li.on {
   animation: processAll 2s forwards;
 }
-.sub-sec.service .sec04 .process-wrap .process ul li.on:not(:last-child) > span::after {
+.sub-sec.service.sec04 .process-wrap .process ul li.on:not(:last-child) > span::after {
   animation: processBefore 1s forwards;
   opacity: 0;
 }
 @media (max-width: 768px) {
-  .sub-sec.service .sec04 .process-wrap .process ul li.on:not(:last-child) > span::after {
+  .sub-sec.service.sec04 .process-wrap .process ul li.on:not(:last-child) > span::after {
     animation: processBeforeMo 1s forwards;
   }
 }
-.sub-sec.service .sec04 .process-wrap .process ul li > span {
+.sub-sec.service.sec04 .process-wrap .process ul li > span {
   position: relative;
   display: block;
   width: 5.4rem;
@@ -589,44 +589,44 @@
   text-align: center;
 }
 @media (max-width: 768px) {
-  .sub-sec.service .sec04 .process-wrap .process ul li > span {
+  .sub-sec.service.sec04 .process-wrap .process ul li > span {
     width: 3.4rem;
     font-size: 2.4rem;
     text-align: left;
   }
 }
 @media (max-width: 768px) {
-  .sub-sec.service .sec04 .process-wrap .process ul li > div {
+  .sub-sec.service.sec04 .process-wrap .process ul li > div {
     width: 25.6rem;
   }
 }
-.sub-sec.service .sec04 .process-wrap .process ul li > div strong {
+.sub-sec.service.sec04 .process-wrap .process ul li > div strong {
   font-size: 3.6rem;
   font-weight: 700;
 }
 @media (max-width: 768px) {
-  .sub-sec.service .sec04 .process-wrap .process ul li > div strong {
+  .sub-sec.service.sec04 .process-wrap .process ul li > div strong {
     font-size: 2.4rem;
   }
 }
-.sub-sec.service .sec04 .process-wrap .process ul li > div p {
+.sub-sec.service.sec04 .process-wrap .process ul li > div p {
   padding-top: 1rem;
   font-size: 2rem;
   line-height: 1.8;
 }
 @media (max-width: 768px) {
-  .sub-sec.service .sec04 .process-wrap .process ul li > div p {
+  .sub-sec.service.sec04 .process-wrap .process ul li > div p {
     font-size: 1.4rem;
   }
 }
-.sub-sec.service .sec04 .process-wrap .process ul li > div a {
+.sub-sec.service.sec04 .process-wrap .process ul li > div a {
   padding-top: 1rem;
   font-size: 2rem;
   font-weight: 700;
   text-decoration: underline;
 }
 @media (max-width: 768px) {
-  .sub-sec.service .sec04 .process-wrap .process ul li > div a {
+  .sub-sec.service.sec04 .process-wrap .process ul li > div a {
     font-size: 1.4rem;
   }
 }
