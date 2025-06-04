@@ -374,7 +374,7 @@ section {
         @include tablet {
             padding-bottom: 4rem;
         }
-        strong, h1 {
+        strong {
             font-size: clamp(4rem, 3.229vw, 6.2rem);
             font-weight: 700;
             line-height: 1.5;
@@ -397,7 +397,7 @@ section {
                 align-items: center;
                 justify-content: center;
             }
-            strong, h1 {
+            strong {
                 color: $white;
                 text-align: left;
                 @include tablet {

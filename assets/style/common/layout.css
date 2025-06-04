@@ -393,14 +393,14 @@ section .tit-wrap {
     padding-bottom: 4rem;
   }
 }
-section .tit-wrap strong, section .tit-wrap h1 {
+section .tit-wrap strong {
   font-size: clamp(4rem, 3.229vw, 6.2rem);
   font-weight: 700;
   line-height: 1.5;
   text-align: center;
 }
 @media (max-width: 768px) {
-  section .tit-wrap strong, section .tit-wrap h1 {
+  section .tit-wrap strong {
     font-size: 2.9rem;
   }
 }
@@ -426,12 +426,12 @@ section .tit-wrap.type01 {
     justify-content: center;
   }
 }
-section .tit-wrap.type01 strong, section .tit-wrap.type01 h1 {
+section .tit-wrap.type01 strong {
   color: #fff;
   text-align: left;
 }
 @media (max-width: 768px) {
-  section .tit-wrap.type01 strong, section .tit-wrap.type01 h1 {
+  section .tit-wrap.type01 strong {
     text-align: center;
   }
 }

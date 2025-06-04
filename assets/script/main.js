@@ -202,6 +202,28 @@ $(function(){
     bindScrollBetweenSections('.main-sec');
     bindScrollBetweenSections('.service');
 
+    // 서비스 소개
+    function checkItemsOnScroll() {
+
+        let windowHeight = $(window).height();
+        let scrollTop = $(window).scrollTop();
+        let viewportCenter = scrollTop + windowHeight / 2;
+
+        $('.sec04 .process ul li').each(function () {
+            let $item = $(this);
+            let offset = $item.offset().top;
+            let height = $item.outerHeight();
+            let itemCenter = offset + height / 2;
+
+            if (Math.abs(viewportCenter - itemCenter) < height) {
+                $item.addClass('on');
+            }
+        });
+    }
+
+    $(window).on('scroll resize', checkItemsOnScroll);
+    checkItemsOnScroll();
+
     // 커스텀 select
     function selectCustom() {
         $(".select-item").on("click", function (e) {
@@ -268,7 +290,7 @@ $(function(){
         e.preventDefault();
 
         const $card = $(this).closest('.card');
-        const $target = $('.sub-sec.price').eq(1); // 두 번째 .sub-sec.price
+        const $target = $('.sub-sec.sec02.price'); // 두 번째 .sub-sec.price
         const $searchWrap = $target.find('.search-wrap');
         const $tbWrap = $target.find('.tb-wrap');
         const $selectBox = $('.select-box.type01');
@@ -351,7 +373,7 @@ $(function(){
             });
         });
     }
-    bindDragScroll('.main-sec.cooperate .detail ul');
+    bindDragScroll('.main-sec.sec04 .detail ul');
     bindDragScroll('.main-sec.sec05 .list-wrap ul');
     bindDragScroll('.sub-sec.service .manage-card-wrap > ul');
     bindDragScroll('.sub-sec.service .icon-card-wrap > div');
@@ -361,4 +383,11 @@ $(function(){
         e.preventDefault();
     });
 
+    // textarea 자동 높이조절
+    $('textarea').on('keydown', function() {
+        $(this).css('height', 'auto');
+
+        const offset = window.innerWidth <= 786 ? 28 : 46;
+        $(this).height(this.scrollHeight - offset);
+    });
 });
