@@ -34,7 +34,7 @@
                 @include tablet {
                     align-items: center;
                 }
-                h1 {
+                strong {
                     @include flexbox (row, flex-start, center);
                     gap: 2rem;
                     @include tablet {
@@ -98,8 +98,9 @@
         }
         .slide-cont {
             position: relative;
-            width: calc(100% - 2rem);
-            margin-left: 2rem;
+            // width: calc(100% - 2rem);
+            width: 100%;
+            // margin-left: 2rem;
             display: flex;
             justify-content: flex-start;
             .main-slide {
@@ -160,6 +161,7 @@
             .btn-wrap {
                 position: absolute;
                 top: -11rem;
+                right: calc((100% - 1440px) / 2);
                 max-width: 1440px;
                 width: calc(100% - 40px);
                 margin: 0 auto;
@@ -197,7 +199,7 @@
             }
         }
     }
-    &.cooperate {
+    &.sec04 {
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, $black 100%), linear-gradient(102deg, #00AD51 19.94%, #5F5FE2 83.19%);
         padding: 20rem 0;
         @include tablet {
